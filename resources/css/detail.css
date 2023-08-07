@@ -1,0 +1,54 @@
+.options {
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+  }
+  
+  .options li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+
+  /* line-height: 60px; */
+  }
+  
+  .options label,
+  .options input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #FFCCCB; */
+    
+  }
+  
+  .options input[type="radio"] {
+    opacity: 0.01;
+    z-index: 100;
+    
+  }
+  
+  .options input[type="radio"]:checked+label,
+  .Checked+label {
+    background: #FFCCCB;
+  }
+  
+  .options label {
+    padding: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+    z-index: 90;
+    border-radius: 10%;
+    
+  }
+  
+  .options label:hover {
+    background: #DDD;
+  }
