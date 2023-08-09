@@ -14,11 +14,9 @@
   <li>Checkout</li>
   <li>Show Order</li>
   <li>Show Specific Order</li>
-  <li>Submit Payment Receipt</li>
   <li>Confirm Payment</li>
   <li>Show Profile</li>
   <li>Change Profile Details</li>
-  <li>Styling UI</li>
   <li>Show Total Price in Cart and Order</li>
   <li>Admin Seeding</li>
   <li>Middleware Admin</li>
